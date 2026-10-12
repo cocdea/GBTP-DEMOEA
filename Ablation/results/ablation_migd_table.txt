@@ -1,0 +1,6 @@
+# Ablation study on MIGD (DF1--DF14, 4 dynamic settings, 56 cases)
+# Columns: MOEA/D, GBS-MOEA/D, GBT-MOEA/D, GBCT-DMOEA
+Row	MOEA/D	GBS-MOEA/D	GBT-MOEA/D	GBCT-DMOEA
+best/all	1/56	8/56	15/56	32/56
++/-/= (VS MOEA/D)	0/0/56	51/5/0	51/5/0	55/1/0
++/-/= (VS GBCT-DMOEA)	1/55/0	9/47/0	16/39/1	0/0/56
